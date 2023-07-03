@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .weatherapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .weatherapp .inputbox {
+  text-align: center;
+}
+body .weatherapp .inputbox #getinput {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+body .weatherapp .inputbox #serchBtn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+body .weatherapp .inputbox #serchBtn:hover {
+  background-color: #0056b3;
+}
+body .weatherapp .weatherdetails {
+  font-size: 24px;
+  font-weight: bold;
+}
+body .weatherapp .weatherdetails #temperature {
+  font-size: 48px;
+}
+body .weatherapp .weatherdetails #temperature sup {
+  font-size: 24px;
+}/*# sourceMappingURL=weather.css.map */
